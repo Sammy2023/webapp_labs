@@ -6,7 +6,6 @@
     /* keeps all padding and margin within the actual size of an element*/
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    font-size: 2em;
 }
 
 main{ 
