@@ -1,0 +1,15 @@
+#projects{
+    box-sizing: border-box; 
+    margin: 0px 50px;
+}
+
+#projects ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#projects ul li a{
+    text-decoration: none;
+}
+
+
