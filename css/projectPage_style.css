@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    /* keeps all padding and margin within the actual size of an element*/
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f2;
+}
+
 #projects{
     box-sizing: border-box; 
     margin: 0px 50px;
@@ -6,10 +17,23 @@
 #projects ul{
     list-style: none;
     padding: 0px;
+    margin: 20px 0px;
 }
 
 #projects ul li a{
     text-decoration: none;
+}
+
+.projectBox {
+    animation-name: title;
+}
+
+.projectBox h1, p{
+    margin: 10px 0px;
+}
+
+.projectBox img{
+    margin: 20px 0px;
 }
 
 

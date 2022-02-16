@@ -1,11 +1,41 @@
 {
     "about":{
-         
+        "name": "Sammy Lee", 
+        "title": "Full-Time Student @ Boston College", 
+        "email": "leedzc@bc.edu",
+        "address": "163 Adams Street Malden Massachusetts",
+        "photo": "./assets/profile.jpg",
+        "intro": "Sammy Lee is an full-time student studying computer science and studio arts at Boston College. His passion is to find ways to incorporate artisitic visions into computer science.</b> He mainly focueses on <b>front-end development with an interest in web development. As a Boston-based artist, he also practices painting, sketching, and installation art on the side."
     },
-    "projects":{
+    "projects":[
+        {
+            "title": "TCK (Three Country Kill): Multiplayer online card game",
+            "collab": "Sammy Lee, Daniel Augustin, Kevin Liu, Linha He, Samamanan Ip",
+            "date": 2020,
+            "photo": "assets/project_tck.jpg",
+            "link" : "./project1.html"
+        },
+        {
+            "title": "Art Portfolio: webpage ",
+            "collab": "Sammy Lee",
+            "date": 2020,
+            "photo": "assets/personalPage.jpg",
+            "link" : "./project2.html"
+        }
+    ],
+    "news":[
+        {
+            "title": "ScriptChain Health Software Developer Intern Part-time",
+			"date": "August 2021"
+        },
+        {
+            "title": "Hoamsy Software Developer Intern Part-time",
+			"date": "May 2021"
+        },
+        {
+            "title": "Attending Boston College",
+			"date": "August 2019"
+        }
 
-    },
-    "news":{
-
-    }
+    ]
 }
