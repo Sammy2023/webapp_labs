@@ -1,10 +1,16 @@
+
+
 fetch('./assets/data.json')
     .then(response => {
         return response.json();
     })
     .then(data => {
-        renderNavBar();
         renderMainPage(data);
+        renderProjectPage(data.projects);
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get('project');
+        console.log(urlParams);
+        
         // render HTML here
     });
 
@@ -26,12 +32,25 @@ function renderNavBar() {
 }
 
 function renderMainPage(data) {
+    renderNavBar();
     const main = document.querySelector("main");
     main.innerHTML = `
         ${renderAbout(data.about)}
         ${renderProjects(data.projects)}
         ${renderNews(data.news)}
     `
+    // const search = document.querySelector("#search");
+    // search.addEventListener("input", function(event){
+    //     const value = event.target.value;
+    //     // returns a list of the filtered projects
+    //     const filtered = data.projects.filter(d=>d.title.includes(value));
+    //     const projectList = document.querySelector(".projectList");
+
+    //     // map 
+    //     projectList = filtered.map(project => renderProject(project)).join("");
+    // }
+    // );
+    // console.log("search", search);
 }
 
 function renderAbout(about) {
@@ -61,6 +80,11 @@ function renderProjects(projects) {
     return `
     <section id="projects">
         <h1>Projects</h1>
+        <input id="search" type="text" size="20"/>
+        <select>
+            <option value="course">Course</option>
+            <option value="personal">Personal</option>
+        </select>
         <div class="projectList">
             ${projects.map(project => renderProject(project)).join("")}
         </div>
@@ -105,7 +129,9 @@ function renderNewsItem(newsItem) {
     `
 }
 
-function renderProjectPage() {
+function renderProjectPage(projects) {
     // Project Page html code
-    return "ProjectPage"
+    renderNavBar();
+
+    return 
 }
