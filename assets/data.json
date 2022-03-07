@@ -11,20 +11,24 @@
         {
             "title": "TCK (Three Country Kill): Multiplayer online card game",
             "collab": "Sammy Lee, Daniel Augustin, Kevin Liu, Linha He, Samamanan Ip",
+            "category": "game",
             "date": 2020,
             "photo": "assets/project_tck.jpg",
             "link" : "./project1.html",
             "id": "proj1",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, ligula ac mollis fringilla, lectus tellus molestie odio, vel scelerisque leo nisl vitae eros. Mauris nulla sem, laoreet ut "
+            "description" : "Group Project created with MySQL, Spring, Javascript, Adobe XD",
+            "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, ligula ac mollis fringilla, lectus tellus molestie odio, vel scelerisque leo nisl vitae eros. Mauris nulla sem, laoreet ut "
         },
         {
             "title": "Art Portfolio: webpage ",
             "collab": "Sammy Lee",
+            "category": "portfolio",
             "date": 2020,
             "photo": "assets/personalPage.jpg",
             "link" : "./project2.html",
             "id": "proj2",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, ligula ac mollis fringilla, lectus tellus molestie odio, vel scelerisque leo nisl vitae eros. Mauris nulla sem, laoreet ut "
+            "description": "Personal Project created with HTML, CSS, Javascript, Adobe XD",
+            "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, ligula ac mollis fringilla, lectus tellus molestie odio, vel scelerisque leo nisl vitae eros. Mauris nulla sem, laoreet ut "
 
         }
     ],

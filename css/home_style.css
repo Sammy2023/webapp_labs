@@ -14,8 +14,8 @@ main{
     margin: 0em 10em;
 }  
 
-h1{
-    padding: 0px 10px;
+h1, p{
+    padding: 20px 0px;
 }
 
 input{
@@ -99,6 +99,10 @@ a{
     min-width: 443px;
 }
 
+.newsItem {
+    padding-bottom: 15px;
+}
+
 .projImg img{
     width: 100%
 }
@@ -108,6 +112,16 @@ a{
     margin: 20px 10px;
     margin-bottom: 35px;
     justify-content: space-between;
+}
+
+#search {
+  width:100%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 2px solid #e9e7e7;
+  background-color: #ffffff;
 }
 
 #about .row {

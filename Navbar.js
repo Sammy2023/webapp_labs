@@ -1,6 +1,8 @@
-export default function renderNavBar() {
+
+export default function renderNavBar(page) {
+    
     const nav = document.querySelector("nav");
-    nav.innerHTML = `
+    nav.innerHTML = page === "main" ? `
         <ul>
             <li>
                 <a href="#about">About</a>
@@ -12,5 +14,5 @@ export default function renderNavBar() {
                 <a href="projects">Projects</a>
             </li>
         </ul>
-    `
-};
+    ` : `<a href=".">Go Back</a>`
+}
