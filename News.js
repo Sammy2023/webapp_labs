@@ -12,7 +12,7 @@ export default function renderNews(news) {
     `
 }
 
-function renderNewsItem(news) {
+export function renderNewsItem(news) {
     return `
     <div class="row">
         <div class="col-12">

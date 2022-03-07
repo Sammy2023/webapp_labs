@@ -1,3 +1,5 @@
+import {renderProject} from './Projects.js';
+import {renderNewsItem} from './News.js';
 export default function addInteractions(data) {
     const input = document.querySelector('.search input[name="news"]');
     console.log("input", input);

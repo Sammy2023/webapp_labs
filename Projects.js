@@ -25,7 +25,7 @@ export default function renderProjects(projects) {
     // projects.map(project=>renderProjects(project)).join("")
 }
 
-function renderProject(projects) {
+export function renderProject(projects) {
     return `
         ${projects.map(project => ` 
         <div class="row">
